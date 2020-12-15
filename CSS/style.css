@@ -1,0 +1,218 @@
+
+body{
+
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .input__text{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #848688;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    max-width: 30%;
+    margin-right: 10px;
+    outline: medium none;
+}
+
+
+form .input__text:focus{
+    border: 1px solid #1b743c;
+}
+form .form-group{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+form .form-group .input__text{
+    max-width: 45% !important;
+}
+
+
+form .btn_buscar{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    background: rgb(3, 113, 163);
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: medium none;
+    cursor: pointer;
+}
+form .btn_nuevo{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  background: #1b743c;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  outline: medium none;
+  cursor: pointer;
+}
+
+
+
+
+.btn__nuevo{
+    float: right;
+    background: #1b743c !important;
+}
+
+.btn__group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn__update{
+    display: inline-block;
+    font-size: 14px;
+    background: #1b743c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn__delete{
+    display: inline-block;
+    font-size: 14px;
+    background: #9e0a0a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+form .btn__primary{
+    background: rgb(3, 113, 163);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-right: 800px;
+    outline: medium none;
+    cursor: pointer;
+}
+form .btn__danger{
+    background: #8a0505;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+  
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-right: 928px;
+    outline: medium none;
+    cursor: pointer;
+}
+
+  /*Section*/
+  section{
+    position: relative;
+        top: 120px;
+    }
+    /* Input Forms*/
+    .usuario, .contra{
+        outline: none;
+        padding: 20px;
+        display: block; /*se muestre uno debajo del otro*/
+        width: 300px;
+        border-radius: 3px;
+        border: 1px solid #eee;
+        margin: 20px auto;
+      }
+     .btnaceptLo {
+        padding: 10px;
+        color: #fff;
+        background: rgb(11, 173, 98);
+    
+        width: 320px;
+        margin: 20px auto;
+        margin-top: 0;
+        border: 0;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      .btnaceptLo:hover {
+        background-color: rgb(21, 192, 92);
+      }
+    
+      .cuerpoApp{
+        height: 160vh;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 14px;
+        background-image:  url("../CSS/login.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .cuerpoAppAdmin{
+        height: 160vh;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 14px;
+        background-image:  url("../CSS/compra.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+
+      /* table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table .head{
+    background: rgb(3, 113, 163);
+}
+table .head td{
+    color: #fff;
+    font-family: 'Arial',sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+table tr td{
+    border:1px solid #ccc;
+    padding: 7px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.cuerpoApp{
+	background-color: cadetblue;
+}
+
+
